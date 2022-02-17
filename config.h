@@ -14,7 +14,7 @@ static unsigned int gappov    = 10;       /* vert outer gap between windows and 
 
 static const int usealtbar          = 1;        /* 1 means use non-dwm status bar */
 static const char *altbarclass      = "Polybar"; /* Alternate bar class name */
-static const char *altbarcmd        = "/home/tylefnx/.config/polybar/a.sh"; /* Alternate bar launch command */
+static const char *altbarcmd        = "$HOME/.config/polybar/a.sh"; /* Alternate bar launch command */
 
 static int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
